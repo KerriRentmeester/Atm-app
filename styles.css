@@ -2,10 +2,11 @@
 select {
   display: block;
   margin-bottom: 20px;
+  width: 200 px;
 }
 
 body {
-  background-color: chartreuse;
+  background-color: darkgray;
   padding: 10px;
 }
 
@@ -14,12 +15,15 @@ h1 {
   font-weight: bold;
 }
 
-button {
-    background-color: #0c80f3;
-    border: 6px solid #0ff166;
-    border-radius: 10px;
-    width: 150px;
-  }
-  
 
-  
+/* the submit button does not grey out/show as unavailable if I employ the below styling
+input[type="submit"] {
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 2px;
+  border-color: black;
+  border-width: 3px;
+}
+*/

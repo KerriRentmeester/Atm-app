@@ -1,17 +1,22 @@
-<!-- OJO! Ensure the correct link to the correct doc is in line 37 -->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <title>ATM Machine App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="stylesheet" href="styles.css"/>
+    <!-- 
+      Temporarily commenting out the Bootstrap styles because it is interferring with my style.css 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+    -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin ></script>
   </head>
 
   <body>
     <h1>ATM Machine</h1>
     <br>
+    <!-- Display warning msg for those who do not have JS enabled on their browser -->
+    <noscript> You need to enable JavaScript to run this app. </noscript>
 
     <!-- React component inside this div. -->
     <div id="root"></div>
